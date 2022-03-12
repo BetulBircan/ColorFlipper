@@ -1,0 +1,52 @@
+/* sayfanın tamamı için */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body kısmı için */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: cornsilk;
+}
+
+/* container klasına sahip div için oluşturulan stiller */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height:200px;
+    padding: 20px;
+    background-color: burlywood;
+    color: gray;
+
+}
+
+/* span içerisindeki text için oluşturulan yazı stili */
+#text {
+    font: 100% "Helvetica Neue","sans-serif";
+}
+
+/* buton için stiller */
+.btn {
+    font: 100% "Helvetica Neue","sans-serif";
+    margin:10px 0;
+    padding: 10px 20px;
+    cursor:pointer;
+    background-color:antiquewhite;
+    color:dimgrey;
+}
+
+/* butona tıklanıldığı zaman oluşacak stiller */
+.btn:focus {
+    background-color:deepskyblue;
+    color:aliceblue;
+    
+
+}
