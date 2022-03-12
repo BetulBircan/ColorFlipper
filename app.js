@@ -15,3 +15,10 @@ const randomColor = () => {
     }
     return hexCode
 }
+
+//butona tıklandığında arkaplan renginin değişmesi ve renk kodunu yazması için oluşturulan fonksiyon
+btn.addEventListener('click',() => {
+    const colorCode = randomColor()
+    text.innerText = colorCode
+    document.body.style.backgroundColor = colorCode
+})
